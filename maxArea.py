@@ -13,7 +13,7 @@ class Solution:
                 current_min = height[r]
                 r=r-1
             area = (r-l+1)*current_min
-            if area > max_current:
+            if area > max_current:n
                 max_current=area
         return max_current
 height = [1,8,6,2,5,4,8,3,7]
